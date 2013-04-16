@@ -20,3 +20,9 @@ for s in subs:
 	sc.write(str(v['score']) + '\n')
 	cr.write(str(v['created_utc']) + '\n')
 
+co.close()
+up.close()
+do.close()
+sc.close()
+cr.close()
+
